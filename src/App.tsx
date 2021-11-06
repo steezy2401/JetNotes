@@ -1,0 +1,22 @@
+import { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import {
+  RecoilRoot,
+  atom,
+  selector,
+  useRecoilState,
+  useRecoilValue,
+} from "recoil";
+
+function App() {
+  return (
+    <div className="flex justify-center">
+      <h1 className="font-bold text-2xl text-blue-900">
+        React and Tailwind with Vitejs!
+      </h1>
+    </div>
+  );
+}
+
+export default App;
